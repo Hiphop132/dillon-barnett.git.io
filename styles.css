@@ -13,6 +13,12 @@
     line-height:inherit;
     color:inherit;
 }
+section {
+    border-top: 10px solid #000000;
+    padding: 50px 0;
+    max-width: 800px;
+    margin:0 auto;
+}
 html, body{
     font-family:Arial, Helvetica, sans-serif;
     font-size:18px;
@@ -30,14 +36,24 @@ img{
     border-radius: 80%;
 }
 .hero{
-    outline:1px solid red;
+   
     height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
+    border:0;
+    padding:0;
+}
+.hero img{
+    width:100%;
+    height:100%;
 }
 .headshot{
-    transition: transform 1s;
+    width:300px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    transition: transform 3s;
 
 }
 .headshot:hover{

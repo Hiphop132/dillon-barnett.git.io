@@ -30,6 +30,16 @@ img{
     border-radius: 80%;
 }
 .hero{
-    outline:10000px solid red;
+    outline:1px solid red;
     height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.headshot{
+    transition: transform 1s;
+
+}
+.headshot:hover{
+    transform:rotate(360deg);
 }

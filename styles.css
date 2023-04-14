@@ -25,6 +25,11 @@ h1{
     font-weight:bold;
 }
 img{
-    resize:both;
-    border-radius: 50%;
+    max-height:300px;
+    max-width:300px;
+    border-radius: 80%;
+}
+.hero{
+    outline:10000px solid red;
+    height:100vh;
 }
